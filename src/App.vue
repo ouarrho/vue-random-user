@@ -1,10 +1,14 @@
 <template>
 
-	<div class="container p-4">
+	<div class="d-flex align-items-center" style="height: 100vh;margin-top: -50px;">
 
-		<h1>Hello :)</h1>
+		<div class="container p-4">
 
-	</div>  
+			<router-view />  
+
+		</div>
+
+	</div>
 
 </template>
 
@@ -12,13 +16,7 @@
 
 	export default {
 
-		name: 'App',
-
-		components: {
-
-			
-
-		}
+		name: 'App'
 
 	}
 
